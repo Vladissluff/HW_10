@@ -1,0 +1,64 @@
+    1  clear
+    2  ALL
+    3  CLEAR
+    4  CD
+    5  CLEAR
+    6  cd /c/Users/negod/Desktop/GIT
+    7  CLEAR
+    8  cd /c/Users/vladb/Documents/GitHub
+    9  git config --global user.name "Vlad"
+   10  git config --global user.email "vlad.petrovskyi.03@gmail.com"
+   11  git clone ^[[200~https://github.com/Vladissluff/HW_10.git~
+   12  git clone https://github.com/Vladissluff/HW_10.git
+   13  rm
+   14  vim
+   15  cd /c/Users/vladb/Documents/GitHub
+   16  git config --global user.name "Vlad"
+   17  git config --global user.email "vlad.petrovskyi.03@gmail.com"
+   18  git clone ^[[200~https://github.com/Vladissluff/HW_10.git~
+   19  git clone [200~$ git clone ^[[200~https://github.com/Vladissluff/HW_10
+   20  clear
+   21  cd /c/Users/vladb/Documents/GitHub
+   22  git config --global user.name "Vlad'
+   23  clear
+   24  clear
+   25  cd /c/Users/vladb/Documents/GitHub
+   26  git config --global user.name "Vlad"
+   27  git config --global user.email "vlad.petrovskyi.03@gmail.com"
+   28  git clone ^[[200~https://github.com/Vladissluff/HW_10.git~
+   29  git clone https://github.com/Vladissluff/HW_10.git
+   30  git revert
+   31  revert
+   32  clear
+   33  cd \c\Users\vladb\Desktop
+   34  clear
+   35  cd /
+   36  clear
+   37  cd /c/Users/vladb/Desktop
+   38  git config --global user.name "Vlad"
+   39  git config --global user.email "vlad.bomboman@gmail.com"
+   40  git clone ^[[200~https://github.com/Vladissluff/HW_10.git~
+   41  git clone https://github.com/Vladissluff/HW_10.git
+   42  cd HW_10
+   43  touch text_ignore.txt
+   44  git add .
+   45  git commit -m "text_ignore.txt was added"
+   46  echo text_ignore.txt > .gitignore
+   47  git status
+   48  git add .
+   49  git commit -m "text_ignore.txt was ignored"
+   50  touch main_test.txt
+   51  git add .
+   52  git commit -m "main_test.txt was added"
+   53  git checkout -b develop
+   54  touch develop_test.txt
+   55  git add .
+   56  git commit -m "develop_test.txt was added"
+   57  echo 222 > develop_test.txt
+   58  git status
+   59  git add .
+   60  git commit -m "develop_test.txt was changed"
+   61  git checkout main
+   62  git merge develop
+   63  git log
+   64  history > command_list.csv
